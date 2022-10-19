@@ -51,7 +51,7 @@ a:active {
 .link::after {
   content: attr(data-replace);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 20px;
   height: 100%;
   top: 0;
@@ -227,6 +227,7 @@ header .mobile-menu-ul-li-a {
 }
 
 .welcome-section .welcome-text-1 .main-text {
+  color: #ec5242;
   font-size: 30px;
   font-family: "COCOGOOSE", sans-serif;
   font-weight: bolder;
@@ -393,6 +394,7 @@ header .mobile-menu-ul-li-a {
 }
 
 .about .about-text-1 .main-text {
+  color: #ec5242;
   font-size: 30px;
   font-family: "COCOGOOSE", sans-serif;
   font-weight: bolder;
@@ -512,6 +514,8 @@ header .mobile-menu-ul-li-a {
 .past-projects .past-projects-ul .past-projects-ul-li .past-projects-ul-li-div {
   width: 100%;
   height: 200px;
+  background-blend-mode: overlay;
+  background: center;
   background-color: #272a31;
   background-image: url("../../resources/background.jpeg");
   display: flex;
@@ -614,39 +618,38 @@ footer .reference {
 
   header .bar {
     display: block;
-    height: 20px;
+    height: 27px;
     background: #272a31;
     width: 100%;
   }
 
-  header .bar ul {
+  header .bar .top-ul {
     display: flex;
     flex-direction: row;
     text-align: center;
     color: #fff;
-    top: 5px;
     justify-content: space-around;
     position: absolute;
-    right: 0;
-    width: 400px;
-    font-size: 11px;
+    right: 10vw;
+    top: 5px;
+    width: 300px;
+    font-size: 15px;
   }
 
-  header .bar ul li a #facebook {
+  header .bar .top-ul .top-ul-li a #facebook {
     width: 15px;
     position: relative;
-    top: -3px;
     background-color: #fff;
   }
 
-  header .bar ul li a #twitter {
+  header .bar .top-ul .top-ul-li a #twitter {
     position: relative;
-    top: -5px;
     width: 17px;
   }
 
   header .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
   }
@@ -655,34 +658,49 @@ footer .reference {
     display: none;
   }
 
-  header .nav ul {
-    width: 400px;
+  header .nav .b-bar {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+  }
+
+  header .nav .b-bar .main-logo-container {
+    width: 100%;
+  }
+
+  header .nav .b-bar .main-logo-container .main-logo {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 10vw;
+    top: 5px;
+  }
+
+  header .nav .b-bar .b-bar-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    right: 10vw;
+  }
+
+  header .nav .b-bar .b-bar-left ul {
+    width: 50%;
+    font-size: 17px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  header .nav .main-logo-container {
-    flex: 1;
-  }
-
-  header .nav .main-logo {
-    height: 50px;
-    width: 100px;
-    position: relative;
-    left: 30%;
-    top: 5px;
-  }
-
-  header .nav button {
+  header .nav .b-bar .b-bar-left button {
     margin-left: 50px;
-    margin-right: 50px;
     text-align: center;
     background-color: #fff;
     border: 0;
   }
 
-  header .nav button span {
+  header .nav .b-bar .b-bar-left button .b-bar-left-button-span {
     border: 5px solid #ec5242;
     color: #ec5242;
     padding: 10px 20px 10px 20px;
@@ -705,12 +723,13 @@ footer .reference {
     color: #ec5242;
   }
 
-  .welcome-section .container .welcome-text-1 span {
+  .welcome-section .container .welcome-text-1 .welcome-text-1-span {
     font-size: 35px;
     font-weight: lighter;
   }
 
   .welcome-section .container .welcome-text-1 .main-text {
+    color: #ec5242;
     font-size: 50px;
     font-family: "COCOGOOSE", sans-serif;
     font-weight: bolder;
@@ -791,7 +810,7 @@ footer .reference {
     height: 250px;
     max-height: 500px;
     gap: 2px;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-div {
@@ -807,7 +826,7 @@ footer .reference {
 
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-h3 {
     flex: 1;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #ec5242;
     display: flex;
@@ -818,6 +837,7 @@ footer .reference {
 
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-p {
     flex: 2;
+    text-align: center;
     font-size: 15px;
     color: #fff;
     overflow: hidden;
@@ -826,6 +846,7 @@ footer .reference {
 
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div:hover {
     transform: translate(5px, -5px);
+    background-color: black;
   }
 
   .main-program .main-program-ul .main-program-ul-li:hover {
