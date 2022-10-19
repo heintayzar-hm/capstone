@@ -192,13 +192,13 @@ if (getInnerWidth() < 760) {
   desktopPeopleShow();
 }
 
-const determineDevices = () => {
-  if (getInnerWidth() > 760) {
-    desktopPeopleShow();
-  } else {
-    mobilePeopleShow();
-  }
-};
+// const determineDevices = () => {
+//   if (getInnerWidth() > 760) {
+//     desktopPeopleShow();
+//   } else {
+//     mobilePeopleShow();
+//   }
+// };
 
 // window.addEventListener('resize', determineDevices);
 
