@@ -8,7 +8,12 @@ No frameworks
 
 ## Description
 This page is designed for a conferrence disscussing about Korean popular music.
+<h2>Desktop Version</h2>
+
 ![screenshot](./github_photos/deskstop_full.png)
+
+<h2>Mobile Version</h2>
+
 ![screenshot](./github_photos/phone.png)
 
 
@@ -29,9 +34,9 @@ You have basic knowledge of Html, Css, and code editor.
 ### Setup
 
 ### Install
-npm install
-npm install concurrently
-npm run build (So that you can make changes in scss file)
+npm install <br>
+npm install concurrently <br>
+npm run build (So that you can make changes in scss file)<br>
 ### Usage
 Free feel to use the project as you like
 
