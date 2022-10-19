@@ -516,7 +516,7 @@ header .mobile-menu-ul-li-a {
   height: 200px;
   background-blend-mode: overlay;
   background: center;
-  background-color: #272a31;
+  background-color: rgba(236, 82, 66, 0.7);
   background-image: url("../../resources/background.jpeg");
   display: flex;
   flex-direction: column;
@@ -539,7 +539,7 @@ header .mobile-menu-ul-li-a {
 }
 
 .past-projects .past-projects-ul .past-projects-ul-li:hover {
-  background-color: #ec5242;
+  background-color: #272a31;
 }
 
 footer {
@@ -847,6 +847,7 @@ footer .reference {
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div:hover {
     transform: translate(5px, -5px);
     background-color: black;
+    border: 1px solid white;
   }
 
   .main-program .main-program-ul .main-program-ul-li:hover {

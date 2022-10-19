@@ -535,7 +535,7 @@ header {
         height: 200px;
         background-blend-mode: overlay;
         background: center;
-        background-color: #272a31;
+        background-color: rgb(236 82 66 / 70%);
         background-image: url('../../resources/background.jpeg');
         display: flex;
         flex-direction: column;
@@ -559,7 +559,7 @@ header {
     }
 
     .past-projects-ul-li:hover {
-      background-color: $color_swap_red;
+      background-color: $color_swap_black;
     }
   }
 }
@@ -870,6 +870,7 @@ footer {
         .main-program-ul-li-div:hover {
           transform: translate(5px, -5px);
           background-color: black;
+          border: 1px solid white;
         }
       }
 
