@@ -5,6 +5,13 @@
 > Description of Kpop Conferrence.
 This is the "Kpop Conferrence" Project with just Html and Css(scss). <br>
 No frameworks
+
+## Description
+This page is designed for a conferrence disscussing about Korean popular music.
+![screenshot](./github_photos/deskstop_full.png)
+![screenshot](./github_photos/phone.png)
+
+
 ## Built With
 
 Html and Css(scss)

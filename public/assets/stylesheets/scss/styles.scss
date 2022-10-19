@@ -4,7 +4,8 @@ $color_swap_red: #ec5242;
 $color_swap_ligtgrey: #d3d3d3;
 $font_family_lato: 'Lato', sans-serif;
 $font_family_cocogose: 'COCOGOOSE', sans-serif;
-$large: 760px;
+$large: 768px;
+$small: 767px;
 $white: #fff;
 
 @mixin small-underline() {
@@ -608,7 +609,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: $large) {
+@media only screen and (max-width: $small) {
   .hidden-if-small {
     @include hidden();
   }

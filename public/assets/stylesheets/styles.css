@@ -88,12 +88,10 @@ header .nav {
   display: flex;
   justify-content: flex-start;
 }
-
 header .nav #humburger {
   width: 30px;
   height: 30px;
 }
-
 header .mobile-menu {
   position: fixed;
   top: 0;
@@ -106,19 +104,16 @@ header .mobile-menu {
   backdrop-filter: blur(100px);
   display: none;
 }
-
 header .mobile-menu-top-section {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
   padding: 50px;
 }
-
 header .mobile-menu-top-section .logo {
   border-radius: 40%;
   width: 70px;
 }
-
 header .mobile-menu-ul {
   display: flex;
   flex-direction: column;
@@ -128,7 +123,6 @@ header .mobile-menu-ul {
   top: 106px;
   left: 28px;
 }
-
 header .mobile-menu-ul-li-a {
   color: #fff;
   font-weight: 600;
@@ -142,7 +136,6 @@ header .mobile-menu-ul-li-a {
   flex-direction: column;
   align-items: center;
 }
-
 .main-program h2 {
   font-size: 25px;
   margin: 0;
@@ -150,20 +143,17 @@ header .mobile-menu-ul-li-a {
   text-align: center;
   color: #fff;
 }
-
 .main-program .underline {
   width: 10%;
   margin: 0 auto;
   border-bottom: 1px solid #ec5242;
 }
-
 .main-program .main-program-ul {
   padding: 20px 10px 20px 10px;
   gap: 20px;
   display: flex;
   flex-direction: column;
 }
-
 .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div {
   display: grid;
   grid-template-columns: auto 20% auto;
@@ -171,17 +161,14 @@ header .mobile-menu-ul-li-a {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .img-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .img-container .img-logo {
   width: 50px;
 }
-
 .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-h3 {
   text-align: center;
   font-size: 17px;
@@ -190,17 +177,14 @@ header .mobile-menu-ul-li-a {
   align-items: center;
   justify-content: center;
 }
-
 .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-p {
   font-size: 13px;
   color: #fff;
 }
-
 .main-program .main-program-ul-li-button {
   background-color: #ec5242;
   padding: 20px 15px 20px 15px;
 }
-
 .main-program .main-program-ul-li-button .main-program-ul-li-button-span {
   color: #fff;
   font-size: 20px;
@@ -212,7 +196,6 @@ header .mobile-menu-ul-li-a {
   flex-direction: column;
   justify-content: center;
 }
-
 .welcome-section .welcome-text-1 {
   display: flex;
   flex-direction: column;
@@ -220,32 +203,26 @@ header .mobile-menu-ul-li-a {
   margin: 0;
   color: #ec5242;
 }
-
 .welcome-section .welcome-text-1 span {
   font-size: 25px;
   font-weight: lighter;
 }
-
 .welcome-section .welcome-text-1 .main-text {
   font-size: 30px;
   font-family: "COCOGOOSE", sans-serif;
   font-weight: bolder;
 }
-
 .welcome-section .welcome-text-2 {
   font-size: 20px;
   padding: 10px 10px 10px 20px;
 }
-
 .welcome-section .welcome-date {
   padding: 10px 0 80px 0;
 }
-
 .welcome-section .welcome-date span {
   font-size: 35px;
   font-weight: bold;
 }
-
 .welcome-section .welcome-date .welcome-place {
   font-size: 20px;
   font-weight: 350;
@@ -273,7 +250,6 @@ header .mobile-menu-ul-li-a {
   align-items: center;
   padding: 50px 0 50px 0;
 }
-
 .featured-speakers h2 {
   font-size: 25px;
   width: 100%;
@@ -281,13 +257,11 @@ header .mobile-menu-ul-li-a {
   color: #272a31;
   margin: 0;
 }
-
 .featured-speakers .underline {
   width: 10%;
   margin: 0 auto;
   border-bottom: 1px solid #ec5242;
 }
-
 .featured-speakers button {
   margin-top: 50px;
   background-color: #fff;
@@ -295,31 +269,26 @@ header .mobile-menu-ul-li-a {
   border: 1px solid #d3d3d3;
   width: 85vw;
 }
-
 .featured-speakers button .more {
   font-size: 20px;
 }
-
 .featured-speakers button .more i {
   color: #ec5242;
   position: relative;
   bottom: 4px;
 }
-
 .featured-speakers ul {
   gap: 50px;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
 }
-
 .featured-speakers ul li {
   display: grid;
   grid-template-columns: minmax(30%, 35%) auto;
   width: 97vw;
   gap: 10px;
 }
-
 .featured-speakers ul li .full-image {
   margin: auto;
   position: relative;
@@ -328,13 +297,11 @@ header .mobile-menu-ul-li-a {
   height: auto;
   width: 100%;
 }
-
 .featured-speakers ul li .full-image #board {
   z-index: 0;
   width: 55px;
   position: absolute;
 }
-
 .featured-speakers ul li .full-image .person-img {
   z-index: 1;
   position: absolute;
@@ -345,25 +312,21 @@ header .mobile-menu-ul-li-a {
   height: 80%;
   object-fit: cover;
 }
-
 .featured-speakers ul li div:nth-child(2) {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 .featured-speakers ul li div:nth-child(2) h3 {
   font-size: 18px;
   padding: 5px 0 5px 0;
   margin: 0;
 }
-
 .featured-speakers ul li div:nth-child(2) span {
   font-size: 15px;
   color: #ec5242;
 }
-
 .featured-speakers ul li div:nth-child(2) p {
   font-size: 13px;
   color: #272a31;
@@ -379,25 +342,21 @@ header .mobile-menu-ul-li-a {
   align-items: center;
   text-align: center;
 }
-
 .about .about-text-1 {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin: 0;
 }
-
 .about .about-text-1 .about-text-1-span {
   font-size: 20px;
   font-weight: lighter;
 }
-
 .about .about-text-1 .main-text {
   font-size: 30px;
   font-family: "COCOGOOSE", sans-serif;
   font-weight: bolder;
 }
-
 .about .about-text-2 {
   background-color: #fff;
   border: 1px solid #d3d3d3;
@@ -405,7 +364,6 @@ header .mobile-menu-ul-li-a {
   margin: 10px 20px 10px 20px;
   padding: 10px 10px 10px 20px;
 }
-
 .about .about-contact {
   padding: 10px 0 30px 0;
   display: flex;
@@ -438,20 +396,17 @@ header .mobile-menu-ul-li-a {
   padding: 50px 30px 50px 30px;
   border-bottom: 2px solid #d3d3d3;
 }
-
 .logo-section .logo-header {
   margin: 0;
   font-size: 20px;
   width: 100%;
   text-align: center;
 }
-
 .logo-section .underline {
   width: 10%;
   margin: 0 auto;
   border-bottom: 1px solid #ec5242;
 }
-
 .logo-section .logo-p {
   font-size: 15px;
   text-align: center;
@@ -461,7 +416,6 @@ header .mobile-menu-ul-li-a {
   width: 70%;
   margin-bottom: 30px;
 }
-
 .logo-section .logo-about {
   width: 100%;
   height: 200px;
@@ -469,7 +423,6 @@ header .mobile-menu-ul-li-a {
   background-image: url("../../resources/star_fall.jpg");
   border: 1px solid #d3d3d3;
 }
-
 .logo-section .logo-about .contact-me-logo {
   position: relative;
   top: 40%;
@@ -483,32 +436,27 @@ header .mobile-menu-ul-li-a {
   text-align: center;
   padding: 30px 50px 80px 50px;
 }
-
 .past-projects .past-projects-h3 {
   margin: 0;
   font-size: 20px;
   width: 100%;
   text-align: center;
 }
-
 .past-projects .underline {
   width: 10%;
   margin: 0 auto;
   border-bottom: 1px solid #ec5242;
 }
-
 .past-projects .past-projects-p {
   font-size: 15px;
   margin-bottom: 30px;
 }
-
 .past-projects .past-projects-ul {
   display: grid;
   width: 100%;
   grid-template-columns: auto;
   gap: 20px;
 }
-
 .past-projects .past-projects-ul .past-projects-ul-li .past-projects-ul-li-div {
   width: 100%;
   height: 200px;
@@ -520,20 +468,16 @@ header .mobile-menu-ul-li-a {
   justify-content: center;
   gap: 20px;
 }
-
 .past-projects .past-projects-ul .past-projects-ul-li .past-projects-ul-li-div .past-project-year {
   font-size: 30px;
   color: #fff;
 }
-
 .past-projects .past-projects-ul .past-projects-ul-li .past-projects-ul-li-div .past-project-text {
   color: #fff;
 }
-
 .past-projects .past-projects-ul .past-projects-ul-li .past-projects-ul-li-div:hover {
   transform: translate(5px, -5px);
 }
-
 .past-projects .past-projects-ul .past-projects-ul-li:hover {
   background-color: #ec5242;
 }
@@ -543,12 +487,10 @@ footer {
   flex-direction: column;
   width: 100%;
 }
-
 footer .partner {
   background-color: #272a31;
   padding: 40px 20px 10px 20px;
 }
-
 footer .partner h4 {
   font-size: 25px;
   width: 100%;
@@ -556,13 +498,11 @@ footer .partner h4 {
   color: #fff;
   margin: 0;
 }
-
 footer .partner .underline {
   width: 10%;
   margin: 0 auto;
   border-bottom: 1px solid #ec5242;
 }
-
 footer .partner .contributors {
   padding-top: 40px;
   padding-bottom: 25px;
@@ -573,12 +513,10 @@ footer .partner .contributors {
   flex-wrap: wrap;
   width: 100%;
 }
-
 footer .partner .contributors li img {
   width: 50px;
   border-radius: 50%;
 }
-
 footer .reference {
   display: flex;
   align-items: center;
@@ -587,21 +525,18 @@ footer .reference {
   gap: 10%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 767px) {
   .hidden-if-small {
     display: none;
   }
 }
-
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
   body {
     font-size: 20px;
   }
-
   .hidden-if-large {
     display: none;
   }
-
   header {
     position: fixed;
     display: flex;
@@ -611,14 +546,12 @@ footer .reference {
     z-index: 100;
     background-color: #fff;
   }
-
   header .bar {
     display: block;
     height: 20px;
     background: #272a31;
     width: 100%;
   }
-
   header .bar ul {
     display: flex;
     flex-direction: row;
@@ -631,41 +564,34 @@ footer .reference {
     width: 400px;
     font-size: 11px;
   }
-
   header .bar ul li a #facebook {
     width: 15px;
     position: relative;
     top: -3px;
     background-color: #fff;
   }
-
   header .bar ul li a #twitter {
     position: relative;
     top: -5px;
     width: 17px;
   }
-
   header .nav {
     display: flex;
     justify-content: space-between;
     padding: 0;
   }
-
   header .nav #humburger {
     display: none;
   }
-
   header .nav ul {
     width: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   header .nav .main-logo-container {
     flex: 1;
   }
-
   header .nav .main-logo {
     height: 50px;
     width: 100px;
@@ -673,7 +599,6 @@ footer .reference {
     left: 30%;
     top: 5px;
   }
-
   header .nav button {
     margin-left: 50px;
     margin-right: 50px;
@@ -681,22 +606,18 @@ footer .reference {
     background-color: #fff;
     border: 0;
   }
-
   header .nav button span {
     border: 5px solid #ec5242;
     color: #ec5242;
     padding: 10px 20px 10px 20px;
   }
-
   .welcome-section {
     padding: 200px 20px 50px 20px;
   }
-
   .welcome-section .container {
     margin-left: 10%;
     width: 50%;
   }
-
   .welcome-section .container .welcome-text-1 {
     display: flex;
     flex-direction: column;
@@ -704,38 +625,31 @@ footer .reference {
     margin: 0;
     color: #ec5242;
   }
-
   .welcome-section .container .welcome-text-1 span {
     font-size: 35px;
     font-weight: lighter;
   }
-
   .welcome-section .container .welcome-text-1 .main-text {
     font-size: 50px;
     font-family: "COCOGOOSE", sans-serif;
     font-weight: bolder;
   }
-
   .welcome-section .container .welcome-text-2 {
     font-size: 23px;
     padding: 10px 10px 10px 20px;
   }
-
   .welcome-section .container .welcome-date {
     padding: 10px 0 80px 0;
   }
-
   .welcome-section .container .welcome-date span {
     font-size: 35px;
     font-weight: bold;
   }
-
   .welcome-section .container .welcome-date .welcome-place {
     font-size: 20px;
     font-weight: 350;
     font-family: "Lato", sans-serif;
   }
-
   .welcome-section::before {
     content: " ";
     position: absolute;
@@ -749,7 +663,6 @@ footer .reference {
     background-size: cover;
     opacity: 0.4;
   }
-
   .main-program {
     background-color: #272a31;
     padding: 50px 10px 50px 0;
@@ -757,7 +670,6 @@ footer .reference {
     flex-direction: column;
     align-items: center;
   }
-
   .main-program h2 {
     font-size: 30px;
     margin: 0;
@@ -765,13 +677,11 @@ footer .reference {
     text-align: center;
     color: #fff;
   }
-
   .main-program .underline {
     width: 10%;
     margin: 0 auto;
     border-bottom: 1px solid #ec5242;
   }
-
   .main-program .main-program-ul {
     padding: 50px 0 20px 0;
     gap: 10px;
@@ -783,7 +693,6 @@ footer .reference {
     flex-wrap: wrap;
     flex-direction: row;
   }
-
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div {
     display: flex;
     flex-direction: column;
@@ -793,18 +702,15 @@ footer .reference {
     gap: 2px;
     background-color: black;
   }
-
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-div {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: center;
   }
-
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-div img {
     width: 50px;
   }
-
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-h3 {
     flex: 1;
     font-size: 30px;
@@ -815,7 +721,6 @@ footer .reference {
     justify-content: center;
     margin: 0;
   }
-
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div .main-program-ul-li-div-p {
     flex: 2;
     font-size: 15px;
@@ -823,22 +728,18 @@ footer .reference {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-
   .main-program .main-program-ul .main-program-ul-li .main-program-ul-li-div:hover {
     transform: translate(5px, -5px);
   }
-
   .main-program .main-program-ul .main-program-ul-li:hover {
     background-color: #ec5242;
   }
-
   .main-program #main-program-full-link {
     color: #fff;
     text-decoration: underline;
     text-transform: uppercase;
     padding: 40px 0 40px 0;
   }
-
   .featured-speakers {
     background-color: #fff;
     display: flex;
@@ -847,7 +748,6 @@ footer .reference {
     justify-content: center;
     padding: 50px 0 50px 0;
   }
-
   .featured-speakers h2 {
     font-size: 25px;
     width: 100%;
@@ -855,13 +755,11 @@ footer .reference {
     color: #272a31;
     margin: 0;
   }
-
   .featured-speakers .underline {
     width: 10%;
     margin: 0 auto;
     border-bottom: 1px solid #ec5242;
   }
-
   .featured-speakers .featured-speakers-ul {
     gap: 50px;
     padding-top: 50px;
@@ -871,14 +769,12 @@ footer .reference {
     flex-direction: row;
     justify-content: center;
   }
-
   .featured-speakers .featured-speakers-ul li {
     display: grid;
     width: 40%;
     grid-template-columns: minmax(30%, 35%) auto;
     gap: 30px;
   }
-
   .featured-speakers .featured-speakers-ul li .full-image {
     margin: auto;
     position: relative;
@@ -887,13 +783,11 @@ footer .reference {
     height: auto;
     width: 100%;
   }
-
   .featured-speakers .featured-speakers-ul li .full-image #board {
     z-index: 0;
     width: 55px;
     position: absolute;
   }
-
   .featured-speakers .featured-speakers-ul li .full-image .person-img {
     z-index: 1;
     position: absolute;
@@ -904,47 +798,38 @@ footer .reference {
     height: 80%;
     object-fit: cover;
   }
-
   .featured-speakers .featured-speakers-ul li div:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
   }
-
   .featured-speakers .featured-speakers-ul li div:nth-child(2) h3 {
     font-size: 18px;
     padding: 5px 0 5px 0;
     margin: 0;
   }
-
   .featured-speakers .featured-speakers-ul li div:nth-child(2) span {
     font-size: 15px;
     color: #ec5242;
   }
-
   .featured-speakers .featured-speakers-ul li div:nth-child(2) p {
     font-size: 13px;
     color: #272a31;
   }
-
   .about {
     padding-top: 190px;
   }
-
   .about .about-text-1 {
     margin-bottom: 40px;
   }
-
   .about .about-text-2 {
     width: 40%;
     margin-bottom: 40px;
   }
-
   .about .about-contact {
     font-size: 15px;
   }
-
   .logo-section {
     display: flex;
     flex-direction: column;
@@ -954,20 +839,17 @@ footer .reference {
     padding: 50px 30px 50px 30px;
     border-bottom: 2px solid #d3d3d3;
   }
-
   .logo-section .logo-header {
     margin: 0;
     font-size: 20px;
     width: 100%;
     text-align: center;
   }
-
   .logo-section .underline {
     width: 10%;
     margin: 0 auto;
     border-bottom: 1px solid #ec5242;
   }
-
   .logo-section .logo-p {
     font-size: 15px;
     text-align: center;
@@ -977,18 +859,15 @@ footer .reference {
     width: 40%;
     margin-bottom: 40px;
   }
-
   .logo-section .logo {
     width: 50%;
     height: 200px;
     border: 1px solid #d3d3d3;
   }
-
   .logo-section .logo .contact-me-logo {
     position: relative;
     top: 40%;
   }
-
   .about::before {
     content: " ";
     position: absolute;
@@ -1002,13 +881,11 @@ footer .reference {
     background-size: cover;
     opacity: 0.4;
   }
-
   .past-projects .underline {
     width: 10%;
     margin: 0 auto;
     border-bottom: 1px solid #ec5242;
   }
-
   .past-projects .past-projects-p {
     width: 50%;
     display: flex;
@@ -1017,31 +894,27 @@ footer .reference {
     text-align: center;
     margin-bottom: 50px;
   }
-
   .past-projects .past-projects-ul {
     grid-template-columns: auto auto;
     width: 80%;
   }
-
   footer {
     height: 200px;
   }
-
   footer .reference {
     height: 100%;
     background-color: #272a31;
   }
-
   footer .reference .contribution-text {
     color: #fff;
   }
-
   footer .index-color {
     background-color: #fff;
     height: 200px;
   }
-
   .index-height {
     height: 400px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
