@@ -200,7 +200,7 @@ const determineDevices = () => {
   }
 };
 
-window.addEventListener('resize', determineDevices);
+// window.addEventListener('resize', determineDevices);
 
 const displayAllPeople = () => {
   onLoadPeopleShow();
