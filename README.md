@@ -47,7 +47,7 @@ You can use vscode extension or just run the index file. (I have yet to set up l
 
 
 ### Deployment
-
+<a href="https://heintayzar-hm.github.io/capstone/public/pages/">Watch online</a>
 ## Contact me
 
 <a href="https://github.com/heintayzar-hm/">Github</a>
