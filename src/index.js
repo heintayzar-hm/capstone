@@ -163,9 +163,9 @@ const mobilePeopleShow = () => {
   peopleUl.innerHTML = '';
   for (let i = 0; i < 2 && i < people.length; i += 1) {
     generatePerson(people[i]);
-    showMoreShow();
-    endHide();
   }
+  showMoreShow();
+  endHide();
 };
 
 const desktopPeopleShow = () => {
@@ -173,6 +173,8 @@ const desktopPeopleShow = () => {
   for (let i = 0; i < 6 && i < people.length; i += 1) {
     generatePerson(people[i]);
   }
+  endHide();
+  showMoreHide();
 };
 
 const onLoadPeopleShow = () => {
